@@ -42,4 +42,5 @@ interface HeroCharacterApiService {
     suspend fun deleteHero(
         @Path("id") id: Long
     ): Response<HeroCharacterResponse>
+
 }
